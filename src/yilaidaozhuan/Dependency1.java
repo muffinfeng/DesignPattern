@@ -14,6 +14,8 @@ class openAndClose {
 	public void open(Sony c) {
 		c.play();
 	}
+
+
 }
 
 class Changhong {
