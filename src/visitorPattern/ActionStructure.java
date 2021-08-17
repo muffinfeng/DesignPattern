@@ -17,7 +17,7 @@ public class ActionStructure {
 
     public void display(Action action){
         for(Person person : list){
-            person.accept(action);
+            person.accept(action);//第一次动态分派，根据person的子类是Man还是Woman，来执行响应的accept方法。
         }
     }
 }

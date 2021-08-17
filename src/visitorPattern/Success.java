@@ -1,5 +1,6 @@
 package visitorPattern;
 
+//这是访问者
 public class Success extends Action{
 
     @Override
