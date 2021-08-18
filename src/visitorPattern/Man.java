@@ -7,6 +7,6 @@ public class Man extends Person{
 
     @Override
     public void accept(Action action) {
-        action.getManResult(this);//第二次分派，根据this的类型是Man还是Women来选择执行哪个方法。
+        action.getResult(this);//第二次分派，根据this的类型是Man还是Women来选择执行哪个方法。
     }
 }
